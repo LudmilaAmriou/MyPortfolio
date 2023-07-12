@@ -29,11 +29,11 @@ import {
   movie,
   arduino,
   nyeusi,
-  space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  soai,
+  esi,
+  nbo,
+  coursera,
+  IBM,
 } from '../assets';
 
 export const navLinks = [
@@ -160,32 +160,39 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
+    title: 'Data science Intern',
+    company_name: 'Net Be Open',
+    icon: nbo,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Sep 2022 - Oct 2022',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
+    title: 'Active member',
+    company_name: 'School of AI',
+    icon: soai,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'Sep 2021 - Present',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
+    title: 'Software Engineer',
+    company_name: 'Higher National School of Computer Science',
+    icon: esi,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'Sep 2019 - Jun 2024',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
+    title: 'Deep Learning certificant',
+    company_name: 'Coursera',
+    icon: coursera,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: '2022 - Present',
+  },
+  {
+    title: 'Deep Learning with Pytorch certificant',
+    company_name: 'IBM',
+    icon: IBM,
+    iconBg: '#333333',
+    date: '2022',
   },
 ];
 

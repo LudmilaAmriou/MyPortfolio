@@ -23,17 +23,17 @@ import {
   kotlin,
   flutter,
   docker,
-  komikult,
-  leaderboard,
-  math,
-  movie,
+
   arduino,
-  nyeusi,
+
   soai,
   esi,
   nbo,
   coursera,
   IBM,
+  PA,
+  IE,
+  trav,
 } from '../assets';
 
 export const navLinks = [
@@ -199,8 +199,8 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'Graph: Articulation Point',
+    description: 'A graph Articulation point identifier from a text file or randomly',
     tags: [
       {
         name: 'react',
@@ -215,44 +215,22 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    image: PA,
+    repo: 'https://github.com/LudmilaAmriou/Articulation_Point',
+    demo: 'https://ludmilaamriou.github.io/Articulation_Point/PA/',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Touristic website',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'A static website for touristic guides!',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
-  },
-  {
-    id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
+        name: 'Java Script',
         color: 'green-text-gradient',
       },
       {
@@ -260,9 +238,31 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    image: IE,
+    repo: 'https://github.com/LudmilaAmriou/InterfaceEmploye/',
+    demo: 'https://onecsproject.onrender.com/',
+  },
+  {
+    id: 'project-3',
+    name: 'TrAv⟨€⟩l',
+    description: 'This is a two simple pages containing a LogIn and a SignUp logic and some beautiful cards showing beautiful views',
+    tags: [
+      {
+        name: 'javascript',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'html',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: trav,
+    repo: 'https://github.com/LudmilaAmriou/TravelWebsite',
+    demo: 'https://ludmilaamriou.github.io/TravelWebsite/LogIn/logIn',
   },
   {
     id: 'project-4',
@@ -282,7 +282,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: movie,
+    image: PA,
     repo: 'https://github.com/shaqdeff/Movie-Metro',
     demo: 'https://movie-metro.netlify.app/',
   },
@@ -305,7 +305,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: nyeusi,
+    image: PA,
     repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
     demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
   },

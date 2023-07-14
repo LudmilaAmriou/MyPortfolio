@@ -51,11 +51,9 @@ import esi from './company/esi.png';
 import coursera from './company/coursera.png';
 import r from './tech/r.png';
 
-import komikult from './projects/komikult.png';
-import leaderboard from './projects/leaderboard.png';
-import math from './projects/math-magicians.png';
-import movie from './projects/movie-metro.png';
-import nyeusi from './projects/nyeusi.png';
+import PA from './projects/PA.png';
+import IE from './projects/IE.png';
+import trav from './projects/trav.png';
 
 
 export {
@@ -102,11 +100,7 @@ export {
   cplus,
   kotlin,
   linux,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
+
   ludi,
   lud,
   dcc,
@@ -114,4 +108,7 @@ export {
   esi,
   coursera,
   IBM,
+  PA,
+  IE,
+  trav,
 };

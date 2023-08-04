@@ -54,6 +54,7 @@ import r from './tech/r.png';
 import PA from './projects/PA.png';
 import IE from './projects/IE.png';
 import trav from './projects/trav.png';
+import project from './projects/project.jpg'
 
 
 export {
@@ -111,4 +112,5 @@ export {
   PA,
   IE,
   trav,
+  project,
 };

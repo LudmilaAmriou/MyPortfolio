@@ -23,9 +23,7 @@ import {
   kotlin,
   flutter,
   docker,
-
   arduino,
-
   soai,
   esi,
   nbo,
@@ -34,6 +32,7 @@ import {
   PA,
   IE,
   trav,
+  project,
 } from '../assets';
 
 export const navLinks = [
@@ -266,48 +265,25 @@ const projects = [
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'Other projects',
+    description: `In the following section, you will find more projects and their GitHub link that were developped but not deployed yet`,
     tags: [
       {
-        name: 'nextjs',
+        name: 'Data Science',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'Kotlin',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'Flutter',
         color: 'pink-text-gradient',
       },
     ],
-    image: PA,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
-  },
-  {
-    id: 'project-5',
-    name: 'Nyeusi Fest Site',
-    description:
-      'This is a demo concert website for a music festival called Nyeusi.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: PA,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    image: project,
+    repo: 'https://github.com/LudmilaAmriou?tab=repositories',
+    demo: 'https://drive.google.com/file/d/1qbeKp63TH9HkTGZqJ9vWNao2yV6ynUUC/view?usp=sharing',
   },
 ];
 

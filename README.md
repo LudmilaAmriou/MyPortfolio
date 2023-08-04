@@ -5,6 +5,11 @@
 - Framer Motion
 - TailwindCSS
 
+## Live Demo
+
+- Click [here](https://myportfolio-mrk0.onrender.com/) to view the live demo.
+
+
 
 ## Install
 

@@ -35,6 +35,12 @@ import git from './tech/git.png';
 import cplus from './tech/c++.png';
 import html from './tech/html.png';
 import mongodb from './tech/mongodb.png';
+import pytorch from './tech/pytorch.png';
+import nextjs from './tech/pytorch.png';
+import go from './tech/go.png';
+import flask from './tech/flask.png';
+import electron from './tech/electron.png';
+import conda from './tech/conda.png';
 import javascript from './tech/javascript.png';
 import tensorflow from './tech/tensorflow.png';
 import nodejs from './tech/nodejs.png';
@@ -50,12 +56,12 @@ import soai from './company/soai.png';
 import esi from './company/esi.png';
 import coursera from './company/coursera.png';
 import r from './tech/r.png';
-
+import sherbrooke from './company/sherbrooke.png'
 import PA from './projects/PA.png';
 import IE from './projects/IE.png';
 import trav from './projects/trav.png';
 import project from './projects/project.jpg'
-
+import software from './icons/software.png'
 
 export {
   bwmap,
@@ -101,7 +107,7 @@ export {
   cplus,
   kotlin,
   linux,
-
+  sherbrooke,
   ludi,
   lud,
   dcc,
@@ -113,4 +119,11 @@ export {
   IE,
   trav,
   project,
+  pytorch,
+  go, 
+  flask,
+  electron,
+  conda,
+  nextjs,
+  software
 };

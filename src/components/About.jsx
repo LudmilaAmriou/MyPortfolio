@@ -1,4 +1,6 @@
-import React from 'react';
+/* eslint-disable react/prop-types */
+/* eslint-disable react/no-unknown-property */
+
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { services } from '../constants';
@@ -37,7 +39,7 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        My four years of experience in the field of IT as well as my ambition and
+        My five years of experience in the field of IT as well as my ambition and
         responsibility have allowed me to develop an in-depth knowledge of development,
         especially as well as project management. Seriously dynamic and motivated, I am
         always looking for a new challenge.

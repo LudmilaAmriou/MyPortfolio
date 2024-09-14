@@ -1,9 +1,10 @@
+/* eslint-disable no-sparse-arrays */
 import {
   frontend,
   backend,
   ds,
   linux,
-  prototyping,
+
   javascript,
   sql,
   html,
@@ -20,13 +21,22 @@ import {
   php,
   figma,
   cplus,
+  software,
   kotlin,
+  nextjs,
+  conda, 
+  electron,
+  go,
+  pytorch,
+  flask,
   flutter,
   docker,
   arduino,
   soai,
   esi,
   nbo,
+
+  sherbrooke,
   coursera,
   IBM,
   PA,
@@ -60,12 +70,12 @@ const services = [
     icon: backend,
   },
   {
-    title: 'Datascience Enthusiast',
+    title: 'Data Science and Machine learning Enthusiast',
     icon: ds,
   },
   {
-    title: 'Software Arcihtectures',
-    icon: prototyping,
+    title: 'Software Engineer',
+    icon: software,
   },
 ];
 
@@ -89,6 +99,30 @@ const technologies = [
   {
     name: 'React JS',
     icon: reactjs,
+  },
+  {
+    name: 'Conda',
+    icon: conda,
+  },
+  {
+    name: 'Next JS',
+    icon: nextjs,
+  },
+  {
+    name: 'Electron',
+    icon: electron,
+  },
+  {
+    name: 'Go',
+    icon: go,
+  },
+  {
+    name: 'Pytorch',
+    icon: pytorch,
+  },
+  {
+    name: 'Flask',
+    icon: flask,
   },
   {
     name: 'Arduino',
@@ -158,9 +192,17 @@ const technologies = [
 ];
 
 const experiences = [
+  
+  {
+    title: 'Research Intern',
+    company_name: 'Sherbrooke University',
+    icon: sherbrooke,
+    iconBg: '#333333',
+    date: 'Sep 2023 - Sep 2024',
+  },
   {
     title: 'Data science Intern',
-    company_name: 'Net Be Open',
+    company_name: 'NetBeOpen',
     icon: nbo,
     iconBg: '#333333',
     date: 'Sep 2022 - Oct 2022',

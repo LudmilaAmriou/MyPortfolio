@@ -62,6 +62,9 @@ import IE from './projects/IE.png';
 import trav from './projects/trav.png';
 import project from './projects/project.jpg'
 import software from './icons/software.png'
+import med3pa from './projects/med3pa.png'
+import medomics from './projects/medomics.png'
+
 
 export {
   bwmap,
@@ -125,5 +128,7 @@ export {
   electron,
   conda,
   nextjs,
-  software
+  software,
+  med3pa,
+  medomics,
 };

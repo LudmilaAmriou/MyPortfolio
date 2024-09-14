@@ -46,7 +46,7 @@ const Hero = () => {
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
               Welcome to my portfolio! <br className="sm:block hidden" />
-              This is a portfilo of Software engineer and Data science enthusiast
+              This is a portfolio of a Software Engineer and a Data Science / Machine Learning Enthusiast
             </p>
           </div>
           <div

@@ -4,7 +4,7 @@ import {
   backend,
   ds,
   linux,
-
+med3pa,
   javascript,
   sql,
   html,
@@ -27,6 +27,7 @@ import {
   conda, 
   electron,
   go,
+  medomics,
   pytorch,
   flask,
   flutter,
@@ -260,6 +261,8 @@ const projects = [
     repo: 'https://github.com/LudmilaAmriou/Articulation_Point',
     demo: 'https://ludmilaamriou.github.io/Articulation_Point/PA/',
   },
+
+  
   {
     id: 'project-2',
     name: 'Touristic website',
@@ -307,6 +310,46 @@ const projects = [
   },
   {
     id: 'project-4',
+    name: 'MED3pa: PyPI Package',
+    description: 'A package for evaluating model stability and performance in the face of covariate shifts, uncertainty, and problematic data profiles.',
+    tags: [
+      {
+        name: 'python',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'sickit-learn',
+        color: 'green-text-gradient',
+      }
+    ],
+    image: med3pa,
+    repo: 'https://github.com/MEDomics-UdeS/MED3pa',
+    demo: 'https://pypi.org/project/MED3pa/',
+  },
+  {
+    id: 'project-5',
+    name: 'MED3pa In MEDomicsLab',
+    description: 'A submodule in MEDomicsLab Framework for evaluating model stability and performance in the face of covariate shifts, uncertainty, and problematic data profiles.',
+    tags: [
+      {
+        name: 'python',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'go',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'reactjs',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: medomics,
+    repo: 'https://github.com/MEDomics-UdeS/MEDomicsLab/tree/dev_med3pa',
+    demo: 'https://github.com/MEDomics-UdeS/MEDomicsLab/releases',
+  },
+  {
+    id: 'project-6',
     name: 'Other projects',
     description: `In the following section, you will find more projects and their GitHub link that were developped but not deployed yet`,
     tags: [

@@ -39,10 +39,10 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        My five years of experience in the field of IT as well as my ambition and
-        responsibility have allowed me to develop an in-depth knowledge of development,
-        especially as well as project management. Seriously dynamic and motivated, I am
-        always looking for a new challenge.
+      With five years of training in IT and experience as a computer science engineer, along
+      with a Master's degree, I have gained expertise in development and research. My
+      ambition and sense of responsibility drive me to deliver high-quality solutions. As a
+      dynamic professional, I eagerly embrace new challenges that foster growth.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

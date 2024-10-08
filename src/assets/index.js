@@ -1,13 +1,21 @@
 import bwmap from './backgrounds/bw-map.jpeg';
 import nairobi from './backgrounds/nairobi.png';
+import test from './backgrounds/test.jpg';
+
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
 
 import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
-import shaq from './personal/shaq.png';
+
 import lud from './personal/lud.png';
+import me1 from './personal/me1.jpg';
+import me2 from './personal/me2.png';
+import me3 from './personal/me3.jpeg';
+import me4 from './personal/me4.jpg';
+
+
 import ludi from './personal/ludi.png';
 import backend from './icons/backend.png';
 import frontend from './icons/frontend.png';
@@ -69,12 +77,16 @@ import medomics from './projects/medomics.png'
 export {
   bwmap,
   nairobi,
+  test,
   whiteabstract,
   worldmap,
   logo,
   ds,
   logotext,
-  shaq,
+  me1,
+  me2,
+  me3,
+  me4,
   backend,
   oracle,
   frontend,

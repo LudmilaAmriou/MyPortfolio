@@ -36,7 +36,10 @@ med3pa,
   soai,
   esi,
   nbo,
-
+  me1,
+  me2,
+  me3,
+  me4,
   sherbrooke,
   coursera,
   IBM,
@@ -371,5 +374,36 @@ const projects = [
     demo: 'https://drive.google.com/file/d/1qbeKp63TH9HkTGZqJ9vWNao2yV6ynUUC/view?usp=sharing',
   },
 ];
+const me = [
+  {
+    id: 'image1',
+    name: 'The Achiever',
+    description: 'The moment I became a software engineering graduate. For me, it\'s not just about the degree, but the journey of persistence, passion, and endless learning.',
+    tags: ['Growth', 'Learning', 'Accomplishment'],
+    image: me1
+  },
+  {
+    id: 'image2',
+    name: 'The Adventurer',
+    description: 'I find peace and inspiration in nature. Whether it\'s hiking or simply soaking in the scenery, it’s where I reflect, recharge, and dream of new possibilities.',
+    tags: ['Adventure', 'Nature', 'Exploration'],
+    image: me2
+  },
+  {
+    id: 'image3',
+    name: 'The Problem Solver',
+    description: 'I love solving puzzles—whether in code or life. Every problem is a challenge waiting for the right solution, and I thrive on figuring out the pieces.',
+    tags: ['Logic', 'Creativity', 'Problem-Solving'],
+    image: me3
+  },
+  {
+    id: 'image4',
+    name: 'The Dreamer',
+    description: 'I’m always looking toward the horizon, envisioning new possibilities. My dreams push me forward, whether it’s in tech, personal growth, or exploration.',
+    tags: ['Dreams', 'Ambition', 'Vision'],
+    image: me4
+  }
+];
 
-export { services, technologies, experiences, projects };
+
+export { services, technologies, experiences, projects, me };

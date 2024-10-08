@@ -71,43 +71,48 @@ const Hero = () => {
         </div>
 
         <div
-          className="absolute right-5 bottom-0 sm:bottom-[5vh] flex flex-col w-[400px] h-[570px] 
-          border-2 border-taupe rounded-lg p-2 items-center justify-start space-y-2 overflow-hidden"
-        >
-          <motion.div
-            key={currentImageIndex}
-            initial={{ opacity: 0, y: 100 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -100 }}
-            transition={{ duration: 0.8 }}
-            className="flex flex-col items-center"
-          >
-            {/* Display Image */}
-            <img
-              src={me[currentImageIndex].image}
-              alt={`Diaporama ${currentImageIndex + 1}`}
-              className="w-[320px] h-[400px] object-cover rounded-md" 
-            />
+  className="absolute right-5 bottom-0 sm:bottom-[15vh] flex flex-col w-[690px] h-auto 
+  items-center justify-start space-y-6 overflow-hidden shadow-lg"
+>
+  <motion.div
+    key={currentImageIndex}
+    initial={{ opacity: 0, y: 100 }}
+    animate={{ opacity: 1, y: 0 }}
+    exit={{ opacity: 0, y: -100 }}
+    transition={{ duration: 0.8 }}
+    className="flex flex-col items-center"
+  >
+    {/* Display Image as Circle */}
+    <div className="relative w-[350px] h-[350px] overflow-hidden rounded-full shadow-lg">
+      <img
+        src={me[currentImageIndex].image}
+        alt={`Diaporama ${currentImageIndex + 1}`}
+        className="w-full h-full object-cover rounded-full"
+      />
+    </div>
 
-            {/* Description Area */}
-            <div className="mt-2 flex flex-col items-start">
-              <h3 className="text-xl font-bold text-white">
-                {me[currentImageIndex].name}
-              </h3>
-              <p className="text-sm text-gray-300 mt-1">
-                {me[currentImageIndex].description}
-              </p>
-              {/* Add Tags Below */}
-              <div className="flex space-x-2 mt-5">
-                {me[currentImageIndex].tags.map((tag, index) => (
-                  <span key={index} className="text-xs text-gray-400 border border-gray-600 rounded-full px-2 py-1">
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            </div>
-          </motion.div>
-        </div>
+    {/* Description Area Below Image */}
+    <div className="mt-2 flex flex-col items-center">
+      <h3 className="text-3xl font-bold text-white">
+        {me[currentImageIndex].name}
+      </h3>
+      <p className="text-lg text-gray-300 mt-1 text-center">
+        {me[currentImageIndex].description}
+      </p>
+      {/* Add Tags Below */}
+      <div className="flex space-x-2 mt-2">
+        {me[currentImageIndex].tags.map((tag, index) => (
+          <span key={index} className="text-xs text-gray-400 border border-gray-600 rounded-full px-2 py-1">
+            {tag}
+          </span>
+        ))}
+      </div>
+    </div>
+  </motion.div>
+</div>
+
+
+
 
         {/* Scroll indicator */}
         <div

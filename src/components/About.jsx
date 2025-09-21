@@ -39,10 +39,9 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-      With five years of training in IT and experience as a computer science engineer, along
-      with a Master's degree, I have gained expertise in development and research. My
-      ambition and sense of responsibility drive me to deliver high-quality solutions. As a
-      dynamic professional, I eagerly embrace new challenges that foster growth.
+      Master’s student in Digital Transformation for Industry at Paris-Saclay, 
+      pursuing a dual degree in Engineering and Master’s from the Higher National School of Computer Science (ESI, Algiers). 
+      Skilled in software and data engineering, as well as project management, with a strong focus on delivering innovative and practical solutions.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

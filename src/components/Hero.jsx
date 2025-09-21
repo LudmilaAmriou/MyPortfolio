@@ -62,11 +62,12 @@ const Hero = () => {
                 Ludmila
               </span>
             </h1>
-            <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              Welcome to my portfolio! <br className="sm:block hidden" />
-              A Software Engineer and a Data Science / <br></br>
-              Machine Learning Enthusiast
-            </p>
+           <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
+            Polyvalent Computer Science Engineer. <br />
+            Software, AI & Data Science, Data Engineering, <br />
+            And Digital Transformation.
+          </p>
+
           </div>
         </div>
 

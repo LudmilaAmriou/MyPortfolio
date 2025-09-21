@@ -9,8 +9,6 @@
 
 - Click [here](https://myportfolio-mrk0.onrender.com/) to view the live demo.
 
-
-
 ## Install
 
 - After opening the files in Visual Studio Code, open the **VS Code** integrated terminal and run the following commands:
@@ -53,5 +51,3 @@ npm run preview
 
 - GitHub: [@LudmilaAmriou](https://github.com/LudmilaAmriou)
 - LinkedIn: [Ludmila Amriou](https://www.linkedin.com/in/ludmila-amriou-875b58238/)
-
-

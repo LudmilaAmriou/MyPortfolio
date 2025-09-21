@@ -33,13 +33,20 @@ const ExperienceCard = ({ experience }) => (
     }
     iconStyle={{ background: experience.iconBg }}
     icon={
-      <div className="flex justify-center items-center w-full h-full">
-        <img
-          src={experience.icon}
-          alt={experience.company_name}
-          className="w-[60%] h-[60%] object-contain"
-        />
-      </div>
+      <a href={experience.link} target="_blank" rel="noopener noreferrer">
+        <motion.div
+          className="flex justify-center items-center w-full h-full cursor-pointer rounded-full"
+          whileHover={{ scale: 2, boxShadow: '0 0 15px rgba(8, 8, 8, 0.3)' }}
+          transition={{ type: 'spring', stiffness: 300 }}
+          title="Click to know more"
+        >
+          <img
+            src={experience.icon}
+            alt={experience.company_name}
+            className="w-[60%] h-[60%] object-contain"
+          />
+        </motion.div>
+      </a>
     }>
     <div>
       <h3 className="text-jetLight text-[24px] font-bold font-beckman tracking-[2px]">
@@ -105,7 +112,7 @@ const Experience = () => {
               ease-in-out"
               onClick={() =>
                 window.open(
-                  'https://drive.google.com/file/d/1tOXQxn6tAqmLcZFUw34WOM8GTHiVQzj0/view?usp=sharing', 
+                  'https://drive.google.com/file/d/1ynKo9iPhKwPr-PZR9UhZywK76rj2G70_/view', 
                   '_blank'
                 )
               }

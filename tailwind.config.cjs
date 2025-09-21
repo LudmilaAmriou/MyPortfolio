@@ -49,6 +49,11 @@ export default {
           "linear-gradient(135deg, rgba(244,244,246,0.5) 60%, rgba(10,10,10,0.2) 100%),url('/src/assets/backgrounds/white-abstract.png')",
         experienceLight:
           'linear-gradient(137deg, rgba(244,244,246,0.5) 60%, rgba(10,10,10,0.9) 60%)',
+        education: "linear-gradient(135deg, rgba(255, 255, 255, 0.8) 60%, rgba(249, 249, 249, 0.95) 100%), url('/src/assets/backgrounds/education.jpg')",
+
+        certification:
+          "linear-gradient(135deg, rgba(244,244,246,0.5) 60%, rgba(10,10,10,0.2) 100%),url('/src/assets/backgrounds/certificatin.png')", 
+        certificationLight: 'linear-gradient(-137deg, rgba(244,244,246,0.5) 80%, rgba(10,10,10,0.9) 80%)',
         hero: 'linear-gradient(135deg, rgba(244,244,246,0.8) 60%, rgba(10,10,10,0.95) 60%)',
         'hero-mobile':
           'linear-gradient(137deg, rgba(244,244,246,0.8) 60%, rgba(10,10,10,1) 60%)',

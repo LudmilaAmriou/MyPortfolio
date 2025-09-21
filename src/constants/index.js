@@ -1,18 +1,19 @@
 /* eslint-disable no-sparse-arrays */
 import {
-  frontend,
   backend,
   ds,
   linux,
-med3pa,
+  med3pa,
   javascript,
   sql,
   html,
   java,
   tensorflow,
   r,
+  trans,
   mongodb,
   css,
+  gcp,
   reactjs,
   oracle,
   nodejs,
@@ -35,18 +36,21 @@ med3pa,
   arduino,
   soai,
   esi,
+  EFSET,
   nbo,
   me1,
   me2,
   me3,
   me4,
   sherbrooke,
+  dataImpact,
+  KLMV,
+  saclay,
   coursera,
-  IBM,
   PA,
   IE,
   trav,
-  project,
+  project
 } from '../assets';
 
 export const navLinks = [
@@ -59,6 +63,18 @@ export const navLinks = [
     title: 'Projects',
   },
   {
+    id: 'work',
+    title: 'Experience',
+  },
+  {
+    id: 'edu',
+    title: 'Education',
+  },
+  {
+    id: 'cert',
+    title: 'Certifications',
+  },
+  {
     id: 'contact',
     title: 'Contact',
   },
@@ -66,19 +82,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Frontend Developer',
-    icon: frontend,
+    title: 'Industrial Digitalization',
+    icon: trans,
   },
   {
-    title: 'Backend Developer',
+    title: 'Data Engineering',
     icon: backend,
   },
   {
-    title: 'Data Science and Machine learning Enthusiast',
+    title: 'Data Science and Machine learning Enthusiasm',
     icon: ds,
   },
   {
-    title: 'Software Engineer',
+    title: 'Software Engineering',
     icon: software,
   },
 ];
@@ -193,16 +209,45 @@ const technologies = [
     name: 'mongodb',
     icon: mongodb,
   },
+  {
+    name:'Google Cloud Platform',
+    icon: gcp,
+  }
 ];
 
 const experiences = [
+   {
+    title: 'Data Engineer',
+    company_name: 'Data Impact By NIQ',
+    icon: dataImpact,
+    iconBg: '#333333',
+    date: 'Jan 2025 - Aug 2025',
+    link: 'https://nielseniq.com/global/fr/solutions/analytics-and-activation/data-impact-by-nielseniq/'
   
+  },
+  {
+    title: 'Recruiting Assistant',
+    company_name: 'KLMV Group',
+    icon: KLMV,
+    iconBg: '#333333',
+    date: 'Oct 2024 - June 2025',
+    link: 'https://www.linkedin.com/company/klmv-group/'
+  },
   {
     title: 'Research Intern',
     company_name: 'Sherbrooke University',
     icon: sherbrooke,
     iconBg: '#333333',
     date: 'Sep 2023 - Sep 2024',
+    link: 'https://www.usherbrooke.ca/'
+  },
+  {
+    title: 'Active member',
+    company_name: 'School of AI',
+    icon: soai,
+    iconBg: '#333333',
+    date: 'Sep 2021 - Sep 2024',
+    link: 'https://www.linkedin.com/company/school-of-ai-algiers/posts/?feedView=all'
   },
   {
     title: 'Data science Intern',
@@ -210,37 +255,55 @@ const experiences = [
     icon: nbo,
     iconBg: '#333333',
     date: 'Sep 2022 - Oct 2022',
-  },
+    link: 'https://netbeopen.com/'
+  }
+
+];
+const education = [
   {
-    title: 'Active member',
-    company_name: 'School of AI',
-    icon: soai,
+    title: "Master's in Digital Transformation for Industry",
+    company_name: 'Paris Saclay University',
+    icon: saclay,
     iconBg: '#333333',
-    date: 'Sep 2021 - Present',
+    date: 'Sep 2024 - Jun 2026',
+    link: 'https://www.universite-paris-saclay.fr/formation/master/ingenierie-des-systemes-complexes/m2-transformation-numerique-pour-lindustrie',
   },
   {
-    title: 'Software Engineer',
-    company_name: 'Higher National School of Computer Science',
+    title: "Master's in Computer Science",
+    company_name: 'Higher National School of Computer Science Of Algiers',
     icon: esi,
     iconBg: '#333333',
     date: 'Sep 2019 - Jun 2024',
+    link: 'https://www.esi.dz/',
   },
   {
-    title: 'Deep Learning certificant',
+    title: "Engineering Degree in Computer Science",
+    company_name: 'Higher National School of Computer Science Of Algiers',
+    icon: esi,
+    iconBg: '#333333',
+    date: 'Sep 2019 - Jun 2024',
+    link: 'https://www.esi.dz/',
+  }
+];
+
+const certification = [
+    {
+    title: 'C2 Proficient EF SET English Certificate ',
+    company_name: 'EF SET',
+    icon: EFSET,
+    iconBg: '#333333',
+    date: 'March 2025',
+    link: 'https://cert.efset.org/en/E1EJcd'
+  },
+    {
+    title: 'Deep Learning Certificates',
     company_name: 'Coursera',
     icon: coursera,
     iconBg: '#333333',
-    date: '2022 - Present',
-  },
-  {
-    title: 'Deep Learning with Pytorch certificant',
-    company_name: 'IBM',
-    icon: IBM,
-    iconBg: '#333333',
-    date: '2022',
-  },
-];
-
+    date: 'Aug 2022 - Aug 2023',
+    link: 'https://www.coursera.org/user/88df3c90459829aca58d19641ea23f03'
+  }
+]
 const projects = [
   {
     id: 'project-1',
@@ -406,4 +469,4 @@ const me = [
 ];
 
 
-export { services, technologies, experiences, projects, me };
+export { services, technologies, experiences, education, certification, projects, me };

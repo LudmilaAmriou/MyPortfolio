@@ -20,6 +20,7 @@ import ludi from './personal/ludi.png';
 import backend from './icons/backend.png';
 import frontend from './icons/frontend.png';
 import prototyping from './icons/prototyping.png';
+import trans from './icons/digitaltrans.png';
 import github from './icons/github.png';
 import close from './icons/close.png';
 import download from './icons/download.png';
@@ -28,6 +29,8 @@ import pineapple from './icons/pineapple.png';
 import pineappleHover from './icons/pineappleHover.png';
 import menu from './icons/menu.png';
 import resume from './icons/resume.png';
+import degree from './icons/degree.png';
+
 import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
 import ds from './icons/ds.png';
@@ -45,6 +48,8 @@ import html from './tech/html.png';
 import mongodb from './tech/mongodb.png';
 import pytorch from './tech/pytorch.png';
 import nextjs from './tech/pytorch.png';
+import gcp from './tech/gcp.png';
+
 import go from './tech/go.png';
 import flask from './tech/flask.png';
 import electron from './tech/electron.png';
@@ -64,7 +69,12 @@ import soai from './company/soai.png';
 import esi from './company/esi.png';
 import coursera from './company/coursera.png';
 import r from './tech/r.png';
-import sherbrooke from './company/sherbrooke.png'
+import sherbrooke from './company/sherbrooke.png';
+import dataImpact from './company/dataImpact.png';
+import saclay from './company/saclay.png';
+import EFSET from './company/EFSET.png';
+
+import KLMV from './company/KLMV.jpeg';
 import PA from './projects/PA.png';
 import IE from './projects/IE.png';
 import trav from './projects/trav.png';
@@ -91,6 +101,7 @@ export {
   oracle,
   frontend,
   prototyping,
+  trans,
   github,
   close,
   download,
@@ -99,6 +110,7 @@ export {
   pineappleHover,
   menu,
   resume,
+  degree,
   send,
   sendHover,
   css,
@@ -119,10 +131,15 @@ export {
   sql,
   reactjs,
   r,
+  gcp,
   cplus,
   kotlin,
   linux,
   sherbrooke,
+  dataImpact,
+  saclay,
+  KLMV,
+  EFSET,
   ludi,
   lud,
   dcc,

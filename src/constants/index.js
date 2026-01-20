@@ -50,7 +50,19 @@ import {
   PA,
   IE,
   trav,
-  project
+  Innov_3D,
+  project,
+  co2,
+  game,
+  typescript,
+  postgres,
+  jira,
+  c, unity,
+  rasp,
+  selenium, langchain,
+  jenkins,
+  bitbucket,
+  githubactions,
 } from '../assets';
 
 export const navLinks = [
@@ -120,6 +132,9 @@ const technologies = [
     name: 'React JS',
     icon: reactjs,
   },
+  {    name: 'Electron JS',
+    icon: electron,
+  },
   {
     name: 'Conda',
     icon: conda,
@@ -128,10 +143,44 @@ const technologies = [
     name: 'Next JS',
     icon: nextjs,
   },
-  {
-    name: 'Electron',
-    icon: electron,
+    {
+    name: 'TypeScript',
+    icon: typescript,
   },
+  {
+  name : 'PostgreSQL',
+  icon : postgres,
+  },
+  {
+    name: 'C',
+    icon: c,
+  },
+  {
+    name: 'Unity',
+    icon: unity,
+  },
+  {
+    name: 'Raspberry Pi',
+    icon: rasp,
+  },
+  {    name: 'Selenium',
+    icon: selenium,
+  },
+  {    name: 'LangChain',
+    icon: langchain,
+  },
+  {
+    name: 'Jenkins',
+    icon: jenkins,
+  },
+  {
+    name: 'Bitbucket',
+    icon: bitbucket,
+  },
+  {
+    name: 'GitHub Actions',
+    icon: githubactions,
+  }, 
   {
     name: 'Go',
     icon: go,
@@ -189,7 +238,7 @@ const technologies = [
     icon: linux,
   },
   {
-    name: 'oracle',
+    name: 'oracle db',
     icon: oracle,
   },
   {
@@ -212,6 +261,9 @@ const technologies = [
   {
     name:'Google Cloud Platform',
     icon: gcp,
+  },
+  {    name: 'Jira Atlassian',
+    icon: jira,
   }
 ];
 
@@ -305,30 +357,32 @@ const certification = [
   }
 ]
 const projects = [
-  {
-    id: 'project-1',
-    name: 'Graph: Articulation Point',
-    description: 'A graph Articulation point identifier from a text file or randomly',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: PA,
-    repo: 'https://github.com/LudmilaAmriou/Articulation_Point',
-    demo: 'https://ludmilaamriou.github.io/Articulation_Point/PA/',
-  },
-
-  
+   {
+  id: 'project-1',
+  name: 'Innov3D — Distributed Web Application',
+  description: 'A full-stack web application (3-Tier Architecture) for managing 3D printing innovation projects. Features secure authentication, data ingestion from external APIs and partner platforms, real-time dashboards, and tools to upload, view, analyze, and manage project data.',
+  tags: [
+    {
+      name: 'PostgreSQL',
+      color: 'red-text-gradient',
+    },
+    {
+      name: 'Flask',
+      color: 'blue-text-gradient',
+    },
+    {
+      name: 'React',
+      color: 'pink-text-gradient',
+    },
+    {
+      name: '3-Tier Architecture',
+      color: 'green-text-gradient',
+    },
+  ],
+  image: Innov_3D,
+  repo: 'https://github.com/LudmilaAmriou/projet_APP_REP',
+  demo: 'https://projet-app-577g89u6g-ludmilaamrious-projects.vercel.app/',
+},
   {
     id: 'project-2',
     name: 'Touristic website',
@@ -413,9 +467,81 @@ const projects = [
     image: medomics,
     repo: 'https://github.com/MEDomics-UdeS/MEDomicsLab/tree/dev_med3pa',
     demo: 'https://github.com/MEDomics-UdeS/MEDomicsLab/releases',
-  },
+  },  
   {
     id: 'project-6',
+    name: 'Graph: Articulation Point',
+    description: 'A graph Articulation point identifier from a text file or randomly',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'mongodb',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: PA,
+    repo: 'https://github.com/LudmilaAmriou/Articulation_Point',
+    demo: 'https://ludmilaamriou.github.io/Articulation_Point/PA/',
+  },
+
+{
+  id: 'project-7',
+  name: 'Sustainable Python – Eco-Friendly Exercises',
+  description: 'Educational Python project focused on writing clean, optimized, and energy-efficient code. Includes beginner, intermediate, and advanced exercises with performance tracking and carbon footprint measurement using CodeCarbon.',
+  tags: [
+    {
+      name: 'Python',
+      color: 'blue-text-gradient',
+    },
+    {
+      name: 'Eco-Coding',
+      color: 'green-text-gradient',
+    },
+    {
+      name: 'Algorithms',
+      color: 'pink-text-gradient',
+    },
+    {
+      name: 'CodeCarbon',
+      color: 'yellow-text-gradient',
+    },
+  ],
+  image: co2, // replace with your actual image
+  repo: 'https://github.com/LudmilaAmriou/Developpement-Durable',
+  demo: 'https://github.com/LudmilaAmriou/Developpement-Durable/blob/master/README.md',
+},
+{
+  id: 'project-8',
+  name: 'Interactive Mini Game',
+  description: 'A simple and fun web-based game built with HTML, CSS, and JavaScript, providing an engaging interactive experience for users.',
+  tags: [
+    {
+      name: 'HTML',
+      color: 'blue-text-gradient',
+    },
+    {
+      name: 'JavaScript',
+      color: 'green-text-gradient',
+    },
+    {
+      name: 'CSS',
+      color: 'pink-text-gradient',
+    },
+  ],
+  image: game, // replace with your actual image
+  repo: 'https://github.com/LudmilaAmriou/simple_games',
+  demo: 'https://ludmilaamriou.github.io/simple_games/',
+}
+,
+  {
+    id: 'project-9',
     name: 'Other projects',
     description: `In the following section, you will find more projects and their GitHub link that were developped but not deployed yet`,
     tags: [

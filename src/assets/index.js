@@ -82,6 +82,20 @@ import project from './projects/project.jpg'
 import software from './icons/software.png'
 import med3pa from './projects/med3pa.png'
 import medomics from './projects/medomics.png'
+import Innov_3D from './projects/Innov_3D.png';
+import co2 from './projects/co2.jpeg'  ;
+import game from './projects/game.png'  ;
+import typescript from './tech/typescript.png'  ;
+import postgres from './tech/postgresql.png'  ;
+import c from './tech/c.png'  ;
+import unity from './tech/unity.png'  ;
+import rasp from './tech/raspberrypi.png'  ;
+import selenium from './tech/selenium.png'  ;
+import langchain from './tech/langchain.png'  ;
+import jenkins from './tech/jenkins.png'  ;
+import bitbucket from './tech/bitbucket.png'  ;
+import githubactions from './tech/githubactions.png'  ;
+import jira from './tech/jira.png'  ;
 
 
 export {
@@ -144,6 +158,7 @@ export {
   lud,
   dcc,
   soai,
+  Innov_3D,
   esi,
   coursera,
   IBM,
@@ -160,4 +175,17 @@ export {
   software,
   med3pa,
   medomics,
+  typescript,
+  postgres,
+  co2,
+  game,
+  c,
+  unity,
+  rasp,
+  selenium,
+  langchain,
+  jenkins,
+  bitbucket,
+  githubactions,
+  jira
 };

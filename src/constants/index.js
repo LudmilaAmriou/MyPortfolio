@@ -63,6 +63,7 @@ import {
   jenkins,
   bitbucket,
   githubactions,
+  da
 } from '../assets';
 
 export const navLinks = [
@@ -268,6 +269,15 @@ const technologies = [
 ];
 
 const experiences = [
+   {
+    title: 'Intern - Software Engineer',
+    company_name: 'Direct Assurance',
+    icon: da,
+    iconBg: '#333333',
+    date: 'Feb 2026 - July 2026',
+    link: 'https://www.direct-assurance.fr/'
+  
+  },
    {
     title: 'Data Engineer',
     company_name: 'Data Impact By NIQ',

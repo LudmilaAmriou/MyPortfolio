@@ -96,6 +96,7 @@ import jenkins from './tech/jenkins.png'  ;
 import bitbucket from './tech/bitbucket.png'  ;
 import githubactions from './tech/githubactions.png'  ;
 import jira from './tech/jira.png'  ;
+import da from './company/direct_assurance.png'  ;
 
 
 export {
@@ -187,5 +188,6 @@ export {
   jenkins,
   bitbucket,
   githubactions,
-  jira
+  jira,
+  da
 };
